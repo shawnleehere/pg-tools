@@ -18,13 +18,13 @@ The following tools are pre-installed in this image:
 ### Pull the Image
 To pull the image from the repository, use the following command:
 ```bash
-docker pull <your-repo-name>/pg-tools:latest
+docker pull shawnleehere/pg-tools:latest
 ```
 
 ### Run the Container
 You can start a container using:
 ```bash
-docker run -it <your-repo-name>/pg-tools
+docker run -it shawnleehere/pg-tools
 ```
 This will launch a bash shell in the `/workspace` directory.
 
